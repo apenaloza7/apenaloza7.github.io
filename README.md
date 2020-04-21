@@ -2,10 +2,6 @@
 
 If you found this, you probably did some digging. I am not the best programmer in the world so don't judge!
 
-## Preview
-
-[![Preview](https://www.apenaloza.com)](https://www.apenaloza.com)
-
 ## Authors
 
 * **Alejandro Penaloza** - [Github](https://github.com/apenaloza7)
@@ -25,5 +21,4 @@ If you found this, you probably did some digging. I am not the best programmer i
 * JavaScript
 * My Brain
 
-
-# Copyright © Penaloza LLC (Not a real registered LLC, I just thought it looked cool)
+Copyright © Penaloza LLC (Not a real registered LLC, I just thought it looked cool)
