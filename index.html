@@ -24,9 +24,11 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link rel="stylesheet" href="fluid-gallery.css">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
@@ -104,37 +106,53 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gallery">
         <div class="container">
-
           <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Gallery</h1>
 
-          <hr class="mt-2 mb-5">
+          <div class="container gallery-container">
+              <div class="tz-gallery">
 
-          <ul class="gallery_box">
-	           <li>
-		             <a href=""><img src="images/2.jpg"></a>
-		         </li>
+                  <div class="row">
 
-		         <li>
-		             <a href="#0"><img src="images/2.jpg"></a>
-	           </li>
+                      <div class="col-sm-12 col-md-4">
+                          <a class="lightbox" href="images/1.jpg">
+                              <img src="images/1.jpg" alt="1">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                          <a class="lightbox" href="images/2.jpg">
+                              <img src="images/2.jpg" alt="1">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                          <a class="lightbox" href="images/3.jpg">
+                              <img src="images/3.jpg" alt="1">
+                          </a>
+                      </div>
+                      <div class="col-sm-12 col-md-8">
+                          <a class="lightbox" href="images/4.jpg">
+                              <img src="images/4.jpg" alt="1">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                          <a class="lightbox" href="images/5.jpg">
+                              <img src="images/5.jpg" alt="1">
+                          </a>
+                      </div>
+                      <div class="col-sm-6 col-md-4">
+                          <a class="lightbox" href="images/6.jpg">
+                              <img src="images/6.jpg" alt="1">
+                          </a>
+                      </div>
 
-		         <li>
-		             <a href="#0"><img src="images/2.jpg"></a>
-		         </li>
+                  </div>
 
-			       <li>
-		             <a href="#0"><img src="images/2.jpg"></a>
-	           </li>
+              </div>
 
-			       <li style="    position: relative; top: -134px;">
-		             <a href="#0"><img src="images/2.jpg"></a>
-	           </li>
+          </div>
 
-			       <li>
-		             <a href="#0"><img src="images/2.jpg"></a>
-	           </li>
 
-</ul>
+
+
 
 </div>
       </section>
@@ -221,6 +239,11 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.tz-gallery');
+  </script>
 </body>
 
 </html>
