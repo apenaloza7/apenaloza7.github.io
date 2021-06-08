@@ -1,0 +1,48 @@
+.nav-bg-custom {
+    background-color: #f8f8ff;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/images/masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+  
+.wrapper:after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+  
+.wrapper img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.custom-header-font {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.navbar-brand {
+    position: relative;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.custom-color-font {
+    color: #51659b;
+}
