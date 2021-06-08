@@ -8,13 +8,14 @@
 
   <!-- Begin Inspectlet Asynchronous Code -->
   <script type="text/javascript">
-  (function() {
-  window.__insp = window.__insp || [];
-  __insp.push(['wid', 324333899]);
-  var ldinsp = function(){
-  if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=324333899&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
-  setTimeout(ldinsp, 0);
-  })();
+    (function () {
+      window.__insp = window.__insp || [];
+      __insp.push(['wid', 324333899]);
+      var ldinsp = function () {
+        if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=324333899&r=' + Math.floor(new Date().getTime() / 3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);
+      };
+      setTimeout(ldinsp, 0);
+    })();
   </script>
   <!-- End Inspectlet Asynchronous Code -->
 
@@ -29,7 +30,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Peñaloza</title>
+  <title>Home</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,215 +40,191 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+  <!-- CUSTOM FONT FOR HOMEPAGE, ETC.. FROM GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/customs.css" rel="stylesheet">
 
 </head>
 
-<body id="page-top">
+<!-- START OF MAIN BODY -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Home</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/website_headshot.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body>
 
-    <!-- CONTAINS SIDEBAR OPTIONS -->
+  <!--NAVBAR-->
+  <header class="site-header">
+    <nav class="navbar navbar-dark nav-bg-custom navbar-static-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+      </a>
+    </nav>
+  </header>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#work_experience">Work Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#meme">Laugh of the Year</a>
-        </li>
-      </ul>
-    </div>
-
-  </nav>
-
- <!-- HOLDS THE WHOLE WEBSITE AFTER THE LANDING PAGE -->
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Alejandro
-          <span class="text-primary">Penaloza</span>
-        </h1>
-        <div class="subheading mb-5"> Greensboro, NC · Winston-Salem, NC
-          <a href="mailto:a_penalo@uncg.edu">a_penalo@uncg.edu</a>
+  <div class="container-fluid" style="background-color: #f8f8ff;">
+    <!-- MASTHEAD -->
+    <header class="masthead rounded">
+      <div class="container h-100">
+        <div class="row h-75 align-items-center">
+          <div class="col-12 text-center">
+            <h1 class="font-weight-light custom-header-font" style="font-size: 40px; color: black;"> print('Hello,
+              world!')
+            </h1>
+            <p class="lead custom-header-font"></p>
+          </div>
         </div>
-        <p class="lead mb-5">I am a first generation Senior at The University of North Carolina Greensboro
-        experienced in full-stack development. I have built everything from Hello World to a full-scaled web app for biomechanical engineers.
-         Some of my hobbies include soccer, running, reading up on all things tech,
-         and making terrible options trading decisions (<a href="https://finance.yahoo.com/quote/arkk?ltr=1" target="_blank">Nice</a>). I am particulary interested in Software Development with a goal
-         of one day becoming a Full Stack Web Developer. I'm also a growing leader who possesses strong interpersonal and 
-         organizational skills in search of inspiring individuals to become the most exceptional version of themselves. Use 
-         any of the links below to reach out in regards to any questions!</p>
+      </div>
+    </header>
 
-        <!-- Container that holds social media icons -->
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/alejandro-pe%C3%B1aloza-a35858156/" target="_blank">
+    <hr>
+
+    <div class="container-fluid">
+      <section class="p-3 p-lg-5 d-flex align-items-center">
+        <div class="w-100">
+          <h1 class="mb-0 custom-color-font">Alejandro
+            <span class="custom-color-font">Penaloza</span>
+          </h1>
+          <div class="subheading mb-5" class="custom-color-font"> North Carolina
+            · <a href="mailto:alejpena7@protonmail.com" class="custom-color-font">Contact Me</a>
+          </div>
+          <p class="lead mb-5">Welcome to my website! I am a first generation graduate from The University of North
+            Carolina at Greensboro
+            where I obtained my B.S. in Computer Science.👨🏽‍💻 I have built everything from Hello World to a
+            full-scaled web app for
+            bio-mechanical engineers.
+            Some of my hobbies outside of work include soccer, running, reading up on all things tech,
+            and making terrible options trading decisions (<a href="https://finance.yahoo.com/quote/arkk?ltr=1"
+              target="_blank" class="custom-color-font">Nice</a>). I am particulary interested in software engineering,
+            with a goal to always learn more. I'm also a growing leader who possesses strong interpersonal
+            and organizational skills in search of inspiring individuals to become the most exceptional version of
+            themselves. Use
+            any of the links below to reach out in regards to any questions!</p>
+
+          <!-- Container that holds social media icons -->
+
+          <a href="https://www.linkedin.com/in/alejandro-pe%C3%B1aloza-a35858156/" class="custom-color-font"
+            target="_blank">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/apenaloza7" target="_blank">
+          <a href="https://github.com/apenaloza7" class="custom-color-font" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com/penalozaaaa" target="_blank">
+          <a href="https://twitter.com/penalozaaaa" class="custom-color-font" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/penalozaalex/" target="_blank">
+          <a href="https://www.instagram.com/penalozaalex/" class="custom-color-font" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <hr class="m-0">
+    <hr>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
+    <div class="container-fluid">
+      <section class="p-3 p-lg-5 d-flex align-items-center">
+        <div class="w-100">
+          <h2 class="mb-5 custom-color-font">Professional Experience</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of North Carolina Greensboro</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science</div>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div>
+              <h3 class="mb-0">Associate Software Engineer</h3>
+              <div class="subheading mb-3 custom-color-font">The Hartford</div>
+            </div>
+            <div class="text-md-right">
+              <span class="custom-color-font">June 2021 - Present</span>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2017 - May 2021</span>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="work_experience">
-      <div class="w-100">
-        <h2 class="mb-5">Professional Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Intern</h3>
-            <div class="subheading mb-3">Launch Greensboro</div>
-            <div>- Assisted multiple start-ups in the Greensboro area with web related services to increase online branding.</div>
-            <div>- Successfully helped over 3 start-ups in Greensboro create an online presence by building out several WordPress websites.</div>
-            <div>- Engaged in weekly meetings and applied what I learned about the constantly innovating e-commerce industry.</div>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div>
+              <h3 class="mb-0">Web Intern</h3>
+              <div class="subheading mb-3 custom-color-font">Launch Greensboro</div>
+              <div>· Assisted multiple start-ups in the Greensboro area with web related services to increase online
+                branding.</div>
+              <div>· Successfully helped over 3 start-ups in Greensboro create an online presence by building out
+                several WordPress websites.</div>
+              <div>· Engaged in weekly meetings and applied what I learned about the constantly innovating e-commerce
+                industry.</div>
+            </div>
+            <div class="text-md-right">
+              <span class="custom-color-font">August 2020 - January 2020</span>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2020 - January 2020</span>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Engineering Intern</h3>
-            <div class="subheading mb-3">United Therapeutics Corporation</div>
-            <div>- Led a project for a web application that was to be utilized by the biomechanical engineering team</div>
-            <div>- Assembled from the ground up in an agile environment using Git for version control</div>
-            <div>- Implemented Flask microframework to connect the back-end to the front-end that was built with Bootstrap</div>
-            <div>- Equipped PostgreSQL in order to maintain a persistent data storage</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2020 - August 2020</span>
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div>
+              <h3 class="mb-0">Software Engineering Intern</h3>
+              <div class="subheading mb-3 custom-color-font">United Therapeutics Corporation</div>
+              <div>· Led a project for a web application that was to be utilized by the biomechanical engineering team
+              </div>
+              <div>· Assembled from the ground up in an agile environment using Git for version control</div>
+              <div>· Implemented Flask microframework to connect the back-end to the front-end that was built with
+                Bootstrap</div>
+              <div>· Equipped PostgreSQL in order to maintain a persistent data storage</div>
+            </div>
+            <div class="ext-md-right">
+              <span class="custom-color-font">June 2020 - August 2020</span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <hr class="m-0">
+    <hr>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+    <div class="container-fluid">
+      <section class="p-3 p-lg-5 d-flex align-items-center">
+        <div class="w-100">
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-git"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-github"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-apple"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-windows"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-adobe"></i>
-          </li>
-        </ul>
-      </div>
-    </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="meme">
-      <div class="w-100">
-        <h2 class="mb-5">Laugh of the Year</h2>
-
-        <div> <!-- PAC MANNNNNN HAHAHAHA (used to be a pacman game here but I had to let it go, RIP Flash) --> 
-          <img src="images/stackoverflow_meme.jpg" width="400" height="200" alt="stackoverflow_meme">
+          <div class="subheading mb-3">~some~ of the things I know!</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-css3-alt"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-node-js"></i>
+            <li class="list-inline-item">
+              <i class="fab fa-npm"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-github"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-apple"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-windows"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-adobe"></i>
+            </li>
+          </ul>
         </div>
-      
+      </section>
+
+      <div class="text-center p-3">
+        © 2021
+        <a class="custom-color-font" href="https://apenaloza.com/">Alejandro Penaloza</a>
       </div>
-    </section>
 
-    <hr class="m-0">
+    </div>
+  </div>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center">
-      <div class="w-100">
-        <h2 class="mb-5">Save Lalo's Crocs</h2>
-
-        <div> 
-          <img src="images/crocs.png" width="400" height="200" alt="crocs_orange">
-          <hr>
-          <p>
-            Please consider donating $5 to the Lalo Foundation in order for us to deliver him a new pair of crocs. Send all payments to 
-            @a_penalo on Venmo. 
-          </p>
-        </div>
-      
-      </div>
-    </section>
-
-  </div> <!-- GAMESSSSSSS (not anymore RIP Flash) Also if you're reading this, chances are you're analyzing my development skills.. pls hire me!! You won't regret my work ethic -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -255,9 +232,6 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
 </body>
 
 </html>
